@@ -1,0 +1,39 @@
+body{
+    background: #352f5b;
+}
+
+.container{
+    max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: yellow;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos li{
+    color: white;
+    background: #1f1744;
+    margin-bottom: 2.5px;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.fa-trash-alt{
+    color: red;
+}
+.fa-trash-alt:hover{
+    color: white;
+}
+
+.btn{
+    background: #2fff63;
+}
+
+.filtered{
+    display: none !important;
+}
