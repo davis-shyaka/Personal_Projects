@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(90deg, black, blue, purple);
+}
+
+.container{
+    max-width: 800px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: yellow;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.primes li{
+    color: turquoise;
+    background: black;
+    margin-bottom: 2.5px;
+}
+.primes-range li{
+    color: turquoise;
+    background: black;
+    margin-top: 2.5px;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.fa-trash-alt{
+    color: yellow;
+}
+.fa-trash-alt:hover{
+    color: red;
+}
